@@ -4,7 +4,6 @@ const firmSchema = new mongoose.Schema({
     Name: {
         type: String,
         required: true,
-        unique: true
     },
     area: {
         type: String,
